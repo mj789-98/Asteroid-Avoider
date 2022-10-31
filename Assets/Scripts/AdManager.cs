@@ -38,7 +38,7 @@ public class AdManager : MonoBehaviour, IUnityAdsInitializationListener, IUnityA
     {
         this.gameOverHandler = gameOverHandler;
 
-        Advertisement.Show("rewardedVideo", this);
+        Advertisement.Show("Rewarded_Android", this);
     }
 
   
