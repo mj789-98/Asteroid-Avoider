@@ -38,7 +38,7 @@ public class AdManager : MonoBehaviour, IUnityAdsInitializationListener, IUnityA
     {
         this.gameOverHandler = gameOverHandler;
 
-        Advertisement.Show("Rewarded_Android", this);
+        Advertisement.Show("Banner_Android", this);
     }
 
   
